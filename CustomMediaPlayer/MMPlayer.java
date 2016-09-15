@@ -1,5 +1,3 @@
-package com.tencent.mm.plugin.music.model.player;
-
 import android.annotation.TargetApi;
 import android.media.*;
 import android.os.Process;
@@ -16,7 +14,7 @@ import java.nio.ByteBuffer;
 @TargetApi(16)
 public class MMPlayer extends BasePlayer {
 
-    private final static String TAG = "MicroMsg.Music.MMPlayer";
+    private final static String TAG = "MMPlayer";
 
     private MediaExtractor extractor;
     private MediaCodec codec;
